@@ -1,10 +1,10 @@
-package com.example.rag_poc;
+package com.example.rag;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RagPocApplicationTests {
+class RagApplicationTests {
 
 	@Test
 	void contextLoads() {
