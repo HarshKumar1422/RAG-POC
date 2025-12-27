@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+openai:
+  api-key:
+  chat-model: gpt-4o-mini
+  embedding-model: text-embedding-3-small
+
+qdrant:
+  host: 127.0.0.1
+  port: 6334
+  collection: InteviewPrep_rag
+
+rag:
+  top-k: 5
+  min-score: 0.60
+
+pricing:
+  currency: USD
+  # Prices are per 1M tokens (easy to maintain). You can update anytime.
+  # If you change model, update these.
+  chat:
+    gpt-4o-mini:
+      input_per_1m: 0.15
+      output_per_1m: 0.60
